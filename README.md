@@ -17,3 +17,31 @@ Lemmatization is a fundamental text pre-processing technique used in natural lan
 In lemmatization, unlike stemming, the resulting base word is referred to as a **“lemma.”** The main difference between lemmatization and stemming is that lemmatization takes into account the grammatical category of a word, whereas stemming applies simpler rules to remove prefixes and suffixes without considering the word’s grammatical category.
 
 For example, the lemma of “running” as a verb is “run,” while as a noun, it remains “running.” Lemmatization is crucial in NLP for tasks such as text analysis, sentiment analysis, and information retrieval. It helps in standardizing words, reducing dimensionality, and improving the accuracy of language processing models.
+
+
+## Bag of Words
+The bag-of-words (BOW) model is a simple yet effective way to represent text data in natural language processing (NLP) and information retrieval (IR) tasks. The BOW model represents a document as a collection of its words, without considering the order or structure of the words. Each word is treated as a feature, and the frequency of each word is used as a measure of its importance.
+
+The BOW model is often used in machine learning algorithms, such as classification and clustering, to extract meaningful features from text data. It is a simple and efficient way to convert text into numerical data that can be processed by machine learning algorithms.
+
+The BOW model can be implemented using various techniques, such as:
+
+Word frequency: Each word is represented by its frequency of occurrence in the document.
+TF-IDF (Term Frequency-Inverse Document Frequency): Each word is represented by its frequency in the document, weighted by its importance in the entire corpus.
+Hashing: Words are mapped directly to indices using a hashing function, eliminating the need for a dictionary.
+The BOW model has been used in various NLP and IR applications, including:
+
+Document classification
+1. Text clustering
+2. Information retrieval
+3. Sentiment analysis
+4. Language modeling
+The advantages of the BOW model include:
+
+    1. Simplicity: The BOW model is easy to implement and understand.
+    2. Efficiency: The BOW model is computationally efficient and can handle large amounts of text data.
+    3. Effectiveness: The BOW model has been shown to be effective in various NLP and IR applications.
+However, the BOW model also has some limitations, including:
+
+Loss of semantic information: The BOW model ignores the order and structure of words, which can result in loss of semantic information.
+Sensitivity to word order: The BOW model is sensitive to the order of words in the document, which can affect its performance.
